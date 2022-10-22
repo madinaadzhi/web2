@@ -2,13 +2,14 @@
     background-color: #F5F2E8;
 }
 
-.wrapper {
+.first {
     display: inline-grid;
     grid-template-columns: 550px 870px;
 }
 
-.wrapper > div {
+h1 {
     text-align: right;
+    margin-right: 50px;
 }
 
 .body, ul {
@@ -33,21 +34,17 @@ a {
     color: black;
 }
 
-h1 {
-    padding-right: 50px;
-}
-
 .main {
     display: inline-grid;
     grid-template-columns: 1020px 400px;
 }
 
-.column {
+.secondAndFifth {
     display: inline-grid;
     grid-template-columns: 400px;
 }
 
-.column > div {
+.secondAndFifth > div {
     text-align: left;
     margin-left: 50px;
     margin-bottom: 40px;
@@ -67,13 +64,12 @@ h1 {
     margin-right: 50px;
 }
 
-.row {
+.yAndSixth {
     display: inline-grid;
-    grid-template-columns: 158px 859px;
+    grid-template-columns: 160px 859px;
 }
 
 .y {
-    width: 160px;
     text-align: left;
     margin-left: 50px;
     margin-top: 45px;
